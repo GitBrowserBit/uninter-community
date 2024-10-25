@@ -3,7 +3,7 @@ import style from "../styles/page.module.css";
 
 export default function Home() {
   return (
-    <div>
+    <div className={style.fundo}>
       
           <header className={style.header}>
             <div>logo</div>
