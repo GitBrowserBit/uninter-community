@@ -1,7 +1,8 @@
 /* Versão Mobile */
 .fundo {
-    background-image: url(imagens/desktop-with-computer-coffee-cup.jpg);
+    background-image: url(imagens/imagem-fundo-desktop.jpg);
     background-size: cover;
+    background-position: top right;
 }
 
 .header {
@@ -12,12 +13,51 @@
 
     display: flex;
     flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.nav {
+    padding: 10px;
+    
+    padding-right: 30px;
+}
+
+.ul {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.li {
+    
+    display: inline;
+    
+}
+
+.a {
+   text-decoration: none;
+}
+
+.search {
+    display: flex;
+    justify-content: space-between;
+}
+
+.searchinput {
+    border-radius: ;
+}
+
+.botaosearch {
+    background-color: rgb(238, 25, 25);
+    width: 40px;
+    border: none;
+    border-radius: 50% 50% 0%;
 }
 
 .boasvindas {
     height: 78vh;
-    background-size: cover;
-    background-position: top left;
+    /* background-size: cover;
+    background-position: top left;*/
 
 }
 

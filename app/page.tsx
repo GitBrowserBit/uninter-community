@@ -9,24 +9,24 @@ export default function Home() {
             <div>logo</div>
             {/**area de navegaçao de links */}
             <nav className={style.nav}>
-              <ul>
-                <li>
-                  <a href="/">
+              <ul className={style.ul}>
+                <li className={style.li}>
+                  <a href="/" className={style.a}>
                     <span>Links</span>
                   </a>
                 </li>
-                <li>
-                  <a href="/">
+                <li className={style.li}>
+                  <a href="/" className={style.a}>
                     <span>Links</span>
                   </a>
                 </li>
-                <li>
-                  <a href="/">
+                <li className={style.li}>
+                  <a href="/" className={style.a}>
                     <span>Links</span>
                   </a>
                 </li>
-                <li>
-                  <a href="/">
+                <li className={style.li}>
+                  <a href="/" className={style.a}>
                     <span>Links</span>
                   </a>
                 </li>
@@ -34,9 +34,9 @@ export default function Home() {
               {/** Area de pesquisa
                * esses input irar pecorrer os titulos dos conteudos dos nossos guias
                */}
-              <div>
-                <input type="search" placeholder="search conetent" />
-                <button>button search submit</button>
+              <div className={style.search}>
+                <input type="search" placeholder="search content" className={style.searchinput}/>
+                <button className={style.botaosearch}>botao search </button>
               </div>
             </nav>
           </header>
