@@ -1,67 +1,71 @@
-import EatStraw from "@/components/eatStraw";
-import style from "../styles/page.module.css";
+import style from "@/app/src/styles/page.module.css";
+import GlobeICON from "./src/components/GlobeIcon";
+import SearchICON from "./src/components/SearchIcon";
 
 export default function Home() {
   return (
-    <div className={style.fundo}>
-      
-          <header className={style.header}>
-            <div>logo</div>
-            {/**area de navegaçao de links */}
-            <nav className={style.nav}>
-              <ul>
-                <li>
-                  <a href="/">
-                    <span>Links</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="/">
-                    <span>Links</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="/">
-                    <span>Links</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="/">
-                    <span>Links</span>
-                  </a>
-                </li>
-              </ul>
-              {/** Area de pesquisa
-               * esses input irar pecorrer os titulos dos conteudos dos nossos guias
-               */}
-              <div>
-                <input type="search" placeholder="search conetent" />
-                <button>button search submit</button>
-              </div>
-            </nav>
-          </header>
-          {/**tag main onde ficarar nosso conteudo */}
-          <main>
-            {/**aqui é o container iniciar com uma imagem
-             * onde pode ser os boas vindas e tera botoes q irar consultar sobre o site e iniciar o guiar
-             */}
-            <div className={style.boasvindas}>
-              <h1 className={style.headerh1}>Bem-vindo ao Uninter Community</h1>
-              <span>
-                One stop solution for your services! Order any service anytime
-              </span>
-              <button>Sobre nos</button>
-              <button>Iniciar</button>
-            </div>
-            {/**
-             * aqui terar uns conteudos inicial comou About us ("sobre nos" sobre o site)
-             * featues como uns dos assuntos importante ou uma apresentação
-             */}
-        
-        <div className="minContentInicial">
+    <div>
+      <header className={style.header}>
+        <div><GlobeICON/></div>
+        {/**area de navegaçao de links */}
+        <nav className={style.nav}>
+          <ul>
+            <li>
+              <a href="/">
+                <span>Links</span>
+              </a>
+            </li>
+            <li>
+              <a href="/">
+                <span>Links</span>
+              </a>
+            </li>
+            <li>
+              <a href="/">
+                <span>Links</span>
+              </a>
+            </li>
+            <li>
+              <a href="/">
+                <span>Links</span>
+              </a>
+            </li>
+          </ul>
+          {/** Area de pesquisa
+           * esses input irar pecorrer os titulos dos conteudos dos nossos guias
+           */}
           <div>
-            <img src="#" alt="image component" />
+            <input type="search" placeholder="search conetent" />
+            <SearchICON/>
+            <button>button search submit</button>
           </div>
+        </nav>
+      </header>
+
+
+
+      {/**tag main onde ficarar nosso conteudo */}
+      <main className={style.main}>
+        {/**aqui é o container iniciar com uma imagem
+         * onde pode ser os boas vindas e tera botoes q irar consultar sobre o site e iniciar o guiar
+         */}
+
+        {/**
+         * aqui terar uns conteudos inicial comou About us ("sobre nos" sobre o site)
+         * featues como uns dos assuntos importante ou uma apresentação
+         */}
+            <div className={style.fundo}>
+              <div className={style.boasvindas}>
+                <h1 className={style.headerh1}>
+                  Bem-vindo ao Uninter Community
+                </h1>
+                <span>
+                  One stop solution for your services! Order any service anytime
+                </span>
+                <button>Sobre nos</button>
+                <button>Iniciar</button>
+              </div>
+            </div>
           <div>
             {
               // sobre nos, sobre o site
@@ -71,9 +75,7 @@ export default function Home() {
               <span>sobre o site</span>
             </div>
             <div>
-              <h1>
-                titulo sobre o site
-              </h1>
+              <h1>titulo sobre o site</h1>
               <p>
                 Phasellus dictum ipsum nec rutrum tristique. Aliquam a mauris
                 lacinia, condimentum tellus a, mattis nisl. Sed hendrerit
@@ -131,8 +133,7 @@ export default function Home() {
               <img src="#" alt="Imagen component" />
             </div>
           </div>
-        </div>
-        {
+         {
           //Area dos cards onde ficarar os possiveis assuntos com regras links e outras orientações
         }
         <div className="CardsContent">
@@ -248,27 +249,49 @@ export default function Home() {
           <div>
             <h1>outros serviços</h1>
             <ul>
-              <li><a href="#">links</a></li>
-              <li><a href="#">links</a></li>
-              <li><a href="#">links</a></li>
-              <li><a href="#">links</a></li>
+              <li>
+                <a href="#">links</a>
+              </li>
+              <li>
+                <a href="#">links</a>
+              </li>
+              <li>
+                <a href="#">links</a>
+              </li>
+              <li>
+                <a href="#">links</a>
+              </li>
             </ul>
           </div>
           <div>
             <h1>colaborações ou a estruturas do site</h1>
             <ul>
-              <li><a href="#">links</a></li>
-              <li><a href="#">links</a></li>
-              <li><a href="#">links</a></li>
-              <li><a href="#">links</a></li>
+              <li>
+                <a href="#">links</a>
+              </li>
+              <li>
+                <a href="#">links</a>
+              </li>
+              <li>
+                <a href="#">links</a>
+              </li>
+              <li>
+                <a href="#">links</a>
+              </li>
             </ul>
           </div>
           <div>
             <h1>contatos dos desenvolvedores</h1>
             <ul>
-              <li><span>contato</span></li>
-              <li><span>contato</span></li>
-              <li><span>contato</span></li>
+              <li>
+                <span>contato</span>
+              </li>
+              <li>
+                <span>contato</span>
+              </li>
+              <li>
+                <span>contato</span>
+              </li>
             </ul>
           </div>
         </div>
