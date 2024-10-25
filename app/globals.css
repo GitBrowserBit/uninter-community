@@ -1,6 +1,9 @@
 :root {
   --background: white;
   --foreground: #171717;
+  --bg-header: white;
+  --color-text-primary:black;
+  --color-text-segundary:white;
 }
 
 
