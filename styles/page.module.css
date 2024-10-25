@@ -1,9 +1,13 @@
-* {
-    box-sizing: border-box;
+
+.style.header {
+    background-color: red;
+    display: flex;
+    flex-flow: row nowrap;
 }
 
-.headerestilo {
-    background-color: green;
+.style.nav {
+    color: green;
+    text-decoration: none;
 }
 
 .paragrafo{

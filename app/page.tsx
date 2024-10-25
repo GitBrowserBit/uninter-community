@@ -4,10 +4,10 @@ import style from "../styles/page.module.css";
 export default function Home() {
   return (
     <div>
-      <header className="headerestilo">
+      <header className={style.header}>
         <div>logo</div>
         {/**area de navegaçao de links */}
-        <nav>
+        <nav className={style.nav}>
           <ul>
             <li>
               <a href="/">
