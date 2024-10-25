@@ -4,7 +4,7 @@ import style from "../styles/page.module.css";
 export default function Home() {
   return (
     <div>
-      <header>
+      <header className="headerestilo">
         <div>logo</div>
         {/**area de navegaçao de links */}
         <nav>
