@@ -4,58 +4,60 @@ import style from "../styles/page.module.css";
 export default function Home() {
   return (
     <div>
-      <header className={style.header}>
-        <div>logo</div>
-        {/**area de navegaçao de links */}
-        <nav className={style.nav}>
-          <ul>
-            <li>
-              <a href="/">
-                <span>Links</span>
-              </a>
-            </li>
-            <li>
-              <a href="/">
-                <span>Links</span>
-              </a>
-            </li>
-            <li>
-              <a href="/">
-                <span>Links</span>
-              </a>
-            </li>
-            <li>
-              <a href="/">
-                <span>Links</span>
-              </a>
-            </li>
-          </ul>
-          {/** Area de pesquisa
-           * esses input irar pecorrer os titulos dos conteudos dos nossos guias
-           */}
-          <div>
-            <input type="search" placeholder="search conetent" />
-            <button>button search submit</button>
-          </div>
-        </nav>
-      </header>
-      {/**tag main onde ficarar nosso conteudo */}
-      <main>
-        {/**aqui é o container iniciar com uma imagem
-         * onde pode ser os boas vindas e tera botoes q irar consultar sobre o site e iniciar o guiar
-         */}
-        <div>
-          <h1>mensagen inicial, como os boas vindas</h1>
-          <span>
-            One stop solution for your services! Order any service anytime
-          </span>
-          <button>Sobre nos</button>
-          <button>Iniciar</button>
-        </div>
-        {/**
-         * aqui terar uns conteudos inicial comou About us ("sobre nos" sobre o site)
-         * featues como uns dos assuntos importante ou uma apresentação
-         */}
+      
+          <header className={style.header}>
+            <div>logo</div>
+            {/**area de navegaçao de links */}
+            <nav className={style.nav}>
+              <ul>
+                <li>
+                  <a href="/">
+                    <span>Links</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="/">
+                    <span>Links</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="/">
+                    <span>Links</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="/">
+                    <span>Links</span>
+                  </a>
+                </li>
+              </ul>
+              {/** Area de pesquisa
+               * esses input irar pecorrer os titulos dos conteudos dos nossos guias
+               */}
+              <div>
+                <input type="search" placeholder="search conetent" />
+                <button>button search submit</button>
+              </div>
+            </nav>
+          </header>
+          {/**tag main onde ficarar nosso conteudo */}
+          <main>
+            {/**aqui é o container iniciar com uma imagem
+             * onde pode ser os boas vindas e tera botoes q irar consultar sobre o site e iniciar o guiar
+             */}
+            <div className={style.boasvindas}>
+              <h1 className={style.headerh1}>Bem-vindo ao Uninter Community</h1>
+              <span>
+                One stop solution for your services! Order any service anytime
+              </span>
+              <button>Sobre nos</button>
+              <button>Iniciar</button>
+            </div>
+            {/**
+             * aqui terar uns conteudos inicial comou About us ("sobre nos" sobre o site)
+             * featues como uns dos assuntos importante ou uma apresentação
+             */}
+        
         <div className="minContentInicial">
           <div>
             <img src="#" alt="image component" />
