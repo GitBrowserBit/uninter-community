@@ -2,98 +2,95 @@ import style from "@/app/src/styles/page.module.css";
 import Header from "./src/components/Header";
 export default function Home() {
   return (
-    <div className={style.fundo}>
-        <Header/>
-          {/**tag main onde ficarar nosso conteudo */}
-          <main>
-            {/**aqui é o container iniciar com uma imagem
-             * onde pode ser os boas vindas e tera botoes q irar consultar sobre o site e iniciar o guiar
-             */}
-            <div className={style.boasvindas}>
-              <h1 className={style.headerh1}>Bem-vindo ao Uninter Community</h1>
-              <span>
-                One stop solution for your services! Order any service anytime
-              </span>
-              <button>Sobre nos</button>
-              <button>Iniciar</button>
-            </div>
-            {/**
-             * aqui terar uns conteudos inicial comou About us ("sobre nos" sobre o site)
-             * featues como uns dos assuntos importante ou uma apresentação
-             */}
-        
-        <div className="minContentInicial">
-          <div>
-            <img src="#" alt="image component" />
+    <div>
+      <div className={style.cabeçalho}>
+        <Header />
+      </div>
+      {/**tag main onde ficarar nosso conteudo */}
+      <main className={style.main}>
+        {/**aqui é o container iniciar com uma imagem
+         * onde pode ser os boas vindas e tera botoes q irar consultar sobre o site e iniciar o guiar
+         */}
+
+        {/**
+         * aqui terar uns conteudos inicial comou About us ("sobre nos" sobre o site)
+         * featues como uns dos assuntos importante ou uma apresentação
+         */}
+        <div className={style.fundo}>
+          <div className={style.boasvindas}>
+            <h1 className={style.headerh1}>Bem-vindo ao Uninter Community</h1>
+            <span>
+              One stop solution for your services! Order any service anytime
+            </span>
+            <button>Sobre nos</button>
+            <button>Iniciar</button>
           </div>
-          <div>
-            {
-              // sobre nos, sobre o site
-            }
-            <div>
-              <i>icon</i>
-              <span>sobre o site</span>
-            </div>
-            <div>
-              <h1>
-                titulo sobre o site
-              </h1>
-              <p>
-                Phasellus dictum ipsum nec rutrum tristique. Aliquam a mauris
-                lacinia, condimentum tellus a, mattis nisl. Sed hendrerit
-                viverra elit tempus venenatis. Morbi vel faucibus odio. Nunc
-                vulputate convallis scelerisque. Mauris sollicitudin elit eget
-                ante pharetra, nec suscipit nisl sagittis. Suspendisse euismod a
-                augue pretium dignissim. Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit, sed do eiusmod tempor incididunt dolore magna
-                aliqua. Quis ipsum suspendisse ultrices gravida. Sed do eiusmod
-                tempor incididunt dolore magna aliqua. Lorem ipsum dolor sit
-                amet, consectetur adipiscing elit, sed do eiusmod tempor
-                incididunt dolore magna aliqua. Quis ipsum suspendisse ultrices
-                gravida. Sed do eiusmod tempor incididunt dolore magna aliqua.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt dolore magna aliqua. Quis ipsum
-                suspendisse ultrices gravida. Sed do eiusmod tempor incididunt
-                dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit, sed do eiusmod tempor incididunt dolore magna
-                aliqua. Quis ipsum suspendisse ultrices gravida. Sed do eiusmod
-                tempor incididunt dolore magna aliqua. Lorem ipsum dolor sit
-                amet, consectetur adipiscing elit, sed do eiusmod tempor
-                incididunt dolore magna aliqua. Quis ipsum suspendisse ultrices
-                gravida. Sed do eiusmod tempor incididunt dolore magna aliqua.
-              </p>
-            </div>
-          </div>
+        </div>
+        <div>
           {
-            //Features onde tera algumas informações do site
+            // sobre nos, sobre o site
           }
           <div>
-            <span>Features #01</span>
-            <h1>Excellent Reputation</h1>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt dolore magna aliqua. Quis ipsum
-              suspendisse ultrices gravida. Sed do eiusmod tempor incididunt
-              dolore magna aliqua.
-            </p>
-            <button>Get in Touch</button>
-            <div>
-              <img src="#" alt="Imagen component" />
-            </div>
+            <i>icon</i>
+            <span>sobre o site</span>
           </div>
           <div>
-            <span>Features #03</span>
-            <h1>Tons Of Options</h1>
+            <h1>titulo sobre o site</h1>
             <p>
+              Phasellus dictum ipsum nec rutrum tristique. Aliquam a mauris
+              lacinia, condimentum tellus a, mattis nisl. Sed hendrerit viverra
+              elit tempus venenatis. Morbi vel faucibus odio. Nunc vulputate
+              convallis scelerisque. Mauris sollicitudin elit eget ante
+              pharetra, nec suscipit nisl sagittis. Suspendisse euismod a augue
+              pretium dignissim. Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit, sed do eiusmod tempor incididunt dolore magna
+              aliqua. Quis ipsum suspendisse ultrices gravida. Sed do eiusmod
+              tempor incididunt dolore magna aliqua. Lorem ipsum dolor sit amet,
+              consectetur adipiscing elit, sed do eiusmod tempor incididunt
+              dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Sed
+              do eiusmod tempor incididunt dolore magna aliqua. Lorem ipsum
+              dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt dolore magna aliqua. Quis ipsum suspendisse ultrices
+              gravida. Sed do eiusmod tempor incididunt dolore magna aliqua.
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt dolore magna aliqua. Quis ipsum
               suspendisse ultrices gravida. Sed do eiusmod tempor incididunt
-              dolore magna aliqua.
+              dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit, sed do eiusmod tempor incididunt dolore magna
+              aliqua. Quis ipsum suspendisse ultrices gravida. Sed do eiusmod
+              tempor incididunt dolore magna aliqua.
             </p>
-            <button>Booking</button>
-            <div>
-              <img src="#" alt="Imagen component" />
-            </div>
+          </div>
+        </div>
+        {
+          //Features onde tera algumas informações do site
+        }
+        <div>
+          <span>Features #01</span>
+          <h1>Excellent Reputation</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt dolore magna aliqua. Quis ipsum
+            suspendisse ultrices gravida. Sed do eiusmod tempor incididunt
+            dolore magna aliqua.
+          </p>
+          <button>Get in Touch</button>
+          <div>
+            <img src="#" alt="Imagen component" />
+          </div>
+        </div>
+        <div>
+          <span>Features #03</span>
+          <h1>Tons Of Options</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt dolore magna aliqua. Quis ipsum
+            suspendisse ultrices gravida. Sed do eiusmod tempor incididunt
+            dolore magna aliqua.
+          </p>
+          <button>Booking</button>
+          <div>
+            <img src="#" alt="Imagen component" />
           </div>
         </div>
         {
