@@ -3,42 +3,7 @@ import Header from "./src/components/Header";
 export default function Home() {
   return (
     <div className={style.fundo}>
-      
-          <header className={style.header}>
-            <div>logo</div>
-            {/**area de navegaçao de links */}
-            <nav className={style.nav}>
-              <ul>
-                <li>
-                  <a href="/">
-                    <span>Links</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="/">
-                    <span>Links</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="/">
-                    <span>Links</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="/">
-                    <span>Links</span>
-                  </a>
-                </li>
-              </ul>
-              {/** Area de pesquisa
-               * esses input irar pecorrer os titulos dos conteudos dos nossos guias
-               */}
-              <div>
-                <input type="search" placeholder="search conetent" />
-                <button>button search submit</button>
-              </div>
-            </nav>
-          </header>
+        <Header/>
           {/**tag main onde ficarar nosso conteudo */}
           <main>
             {/**aqui é o container iniciar com uma imagem
