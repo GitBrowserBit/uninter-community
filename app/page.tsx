@@ -1,31 +1,31 @@
-import EatStraw from "@/components/eatStraw";
-import style from "../styles/page.module.css";
-
+import style from "@/app/src/styles/page.module.css";
+import Header from "./src/components/Header";
 export default function Home() {
   return (
     <div className={style.fundo}>
+      
           <header className={style.header}>
             <div>logo</div>
             {/**area de navegaçao de links */}
             <nav className={style.nav}>
-              <ul className={style.ul}>
-                <li className={style.li}>
-                  <a href="/" className={style.a}>
+              <ul>
+                <li>
+                  <a href="/">
                     <span>Links</span>
                   </a>
                 </li>
-                <li className={style.li}>
-                  <a href="/" className={style.a}>
+                <li>
+                  <a href="/">
                     <span>Links</span>
                   </a>
                 </li>
-                <li className={style.li}>
-                  <a href="/" className={style.a}>
+                <li>
+                  <a href="/">
                     <span>Links</span>
                   </a>
                 </li>
-                <li className={style.li}>
-                  <a href="/" className={style.a}>
+                <li>
+                  <a href="/">
                     <span>Links</span>
                   </a>
                 </li>
@@ -33,9 +33,9 @@ export default function Home() {
               {/** Area de pesquisa
                * esses input irar pecorrer os titulos dos conteudos dos nossos guias
                */}
-              <div className={style.search}>
-                <input type="search" placeholder="search content" className={style.searchinput}/>
-                <button className={style.botaosearch}>botao search </button>
+              <div>
+                <input type="search" placeholder="search conetent" />
+                <button>button search submit</button>
               </div>
             </nav>
           </header>
@@ -247,27 +247,49 @@ export default function Home() {
           <div>
             <h1>outros serviços</h1>
             <ul>
-              <li><a href="#">links</a></li>
-              <li><a href="#">links</a></li>
-              <li><a href="#">links</a></li>
-              <li><a href="#">links</a></li>
+              <li>
+                <a href="#">links</a>
+              </li>
+              <li>
+                <a href="#">links</a>
+              </li>
+              <li>
+                <a href="#">links</a>
+              </li>
+              <li>
+                <a href="#">links</a>
+              </li>
             </ul>
           </div>
           <div>
             <h1>colaborações ou a estruturas do site</h1>
             <ul>
-              <li><a href="#">links</a></li>
-              <li><a href="#">links</a></li>
-              <li><a href="#">links</a></li>
-              <li><a href="#">links</a></li>
+              <li>
+                <a href="#">links</a>
+              </li>
+              <li>
+                <a href="#">links</a>
+              </li>
+              <li>
+                <a href="#">links</a>
+              </li>
+              <li>
+                <a href="#">links</a>
+              </li>
             </ul>
           </div>
           <div>
             <h1>contatos dos desenvolvedores</h1>
             <ul>
-              <li><span>contato</span></li>
-              <li><span>contato</span></li>
-              <li><span>contato</span></li>
+              <li>
+                <span>contato</span>
+              </li>
+              <li>
+                <span>contato</span>
+              </li>
+              <li>
+                <span>contato</span>
+              </li>
             </ul>
           </div>
         </div>

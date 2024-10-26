@@ -1,0 +1,34 @@
+
+
+.fundo {
+    background-image: url(imagem/fundo_inicial_dekstop.png);
+}
+
+.cabeçalho{
+    position: fixed;
+    width: 100%;
+}
+.boasvindas {
+    height: 78vh;
+    background-size: cover;
+    background-position: top left;
+
+}
+.headerh1 {
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.388); 
+    padding: 20px;
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+.paragrafo{
+    color: brown;
+}
+.spans {
+    color: white;
+}
+
+.main{
+    margin-top: 5em;
+}
