@@ -4,7 +4,6 @@ import style from "../styles/page.module.css";
 export default function Home() {
   return (
     <div className={style.fundo}>
-      
           <header className={style.header}>
             <div>logo</div>
             {/**area de navegaçao de links */}
