@@ -1,5 +1,6 @@
 import style from "@/app/src/styles/page.module.css";
 import Header from "./src/components/Header";
+import Banner from "./src/components/BannerInicial";
 export default function Home() {
   return (
     <div>
@@ -16,16 +17,7 @@ export default function Home() {
          * aqui terar uns conteudos inicial comou About us ("sobre nos" sobre o site)
          * featues como uns dos assuntos importante ou uma apresentação
          */}
-        <div className={style.fundo}>
-          <div className={style.boasvindas}>
-            <h1 className={style.headerh1}>Bem-vindo ao Uninter Community</h1>
-            <span>
-              One stop solution for your services! Order any service anytime
-            </span>
-            <button>Sobre nos</button>
-            <button>Iniciar</button>
-          </div>
-        </div>
+        <Banner/>
         <div>
           {
             // sobre nos, sobre o site
@@ -65,7 +57,7 @@ export default function Home() {
         {
           //Features onde tera algumas informações do site
         }
-        <div>
+        <div id="targetSection">
           <span>Features #01</span>
           <h1>Excellent Reputation</h1>
           <p>

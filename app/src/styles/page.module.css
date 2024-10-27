@@ -1,12 +1,13 @@
 
 
 .fundo {
-    background-image: url(imagem/fundo_inicial_dekstop.png);
+    background-image: url(imagem/banner_inicial_desktop.jpg);
 }
 
 .cabeçalho{
     position: fixed;
     width: 100%;
+    z-index: 999;
 }
 .boasvindas {
     height: 78vh;
@@ -30,5 +31,5 @@
 }
 
 .main{
-    margin-top: 5em;
+    margin-top: 89px;
 }

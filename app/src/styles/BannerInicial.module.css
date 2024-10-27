@@ -1,0 +1,92 @@
+.container {
+    background-image: url(imagem/banner_inicial_desktop.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 550px;
+}
+
+.containerContent {
+    padding-top: 55px;
+    margin: 46px;
+}
+
+.titleContent {
+    color: var(--color-title-primary);
+    font-size: 48px;
+    font-weight: 100;
+    font-family: var(--font-gasoekONE);
+    max-width: 590px;
+    word-break: break-all;
+    overflow: hidden; 
+}
+
+.subTitle {
+    color: var(--color-subTitle-primary);
+    font-family: var(--font-gasoekONE);
+    font-size: 33px;
+    font-weight: 200;
+    margin: 30px;
+    bottom: 40px;
+    position: relative;
+}
+
+.content {
+    color: var(--color-content-Inicio-primary);
+    font-family: var(--font-inter);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    margin: 40px;
+    max-width: 670px;
+    bottom: 70px;
+    position: relative;
+}
+
+.buttonContainer {
+    display: flex;
+    margin: 40px;
+    position: relative;
+    bottom: 90px;
+    gap: 10px;
+
+}
+
+.buttonInicia {
+    background: var(--bg-button-primary);
+    border-radius: 0 10px 10px 20px;
+    width: 138px;
+    height: 42px;
+    border: none;
+    color: white;
+    transition: background-color 0.9s ease;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.buttonInicia:hover {
+    background: #ffffff;
+    color: black;
+    transform: scale(1.1);
+    transition: 0.9s;
+}
+
+.buttonSobreNos {
+    background: var(--bg-button-segundary);
+    border-radius: 10px 20px 0 10px;
+    width: 138px;
+    height: 42px;
+    border: none;
+    color: white; 
+    transition: background-color 0.9s ease;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.buttonSobreNos:hover {
+    background: #ffffff; 
+    color: black;
+    transform: scale(1.1);
+    transition: 0.9s;
+}

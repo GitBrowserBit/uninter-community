@@ -1,9 +1,18 @@
 :root {
+  /*BACKGROUNDS*/
   --background: white;
   --foreground: #171717;
   --bg-header: white;
+  --bg-button-primary:#EB2B2B;
+  --bg-button-segundary:#7A0000;
+  /*COLORS*/
   --color-text-primary:black;
   --color-text-segundary:white;
+  --color-title-primary: white;
+  --color-title-segudary:black;
+  --color-subTitle-primary:#7D0000;
+  --color-content-Inicio-primary:#D9D1D1;
+
 }
 
 

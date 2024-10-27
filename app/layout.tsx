@@ -1,8 +1,28 @@
 import type { Metadata} from "next";
-import {Michroma} from '@next/font/google'
+import {Aboreto, Gasoek_One, Inter, Michroma} from '@next/font/google'
 import localFont from "next/font/local";
 import "./globals.css";
 
+
+/*-------
+ * FONTS*
+ *------*/
+const inter = Inter({
+  subsets:['latin'],
+  weight: ['100','300','900'],
+  variable:'--font-inter'
+})
+const gasoekONE = Gasoek_One({
+  subsets:['latin'],
+  weight:"400",
+  variable:'--font-gasoekONE'
+})
+
+const aboreto = Aboreto({
+  subsets:["latin"],
+  weight:"400",
+  variable: '--font-aboreto'
+})
 const michroma = Michroma({
   subsets: ["latin"],
   weight: "400",
@@ -19,6 +39,7 @@ const geistMono = localFont({
   variable: "--font-geist-mono",
   weight: "100 900",
 });
+/**********************************/
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -33,7 +54,16 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${michroma.variable} antialiased`}
+        className={`
+          ${geistSans.variable} 
+          ${geistMono.variable} 
+          ${michroma.variable}
+          ${aboreto.variable}
+          ${gasoekONE.variable}
+          ${inter.variable}
+          antialiased`}
+          
+          style={{fontFamily:'var(--font-inter)'}}
       >
         {children}
       </body>
